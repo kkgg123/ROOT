@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T06:29:24.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qhh_3syCDpS1WXe61bUK" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T06:34:20.926Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="J_27FEkErovZqVJUQ-ku" version="14.9.2" type="github">
   <diagram id="6OxUyXnarH1mJg6vfp_b" name="Page-1">
     <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -121,6 +121,13 @@
         <mxCell id="tanTmlRFgSFP3X2OnWR8-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-70" target="tanTmlRFgSFP3X2OnWR8-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-103" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-70" target="tanTmlRFgSFP3X2OnWR8-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="1750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-70" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-20" y="1140" width="100" height="1010" as="geometry" />
         </mxCell>
@@ -136,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-71" value="协作服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1140" width="100" height="650" as="geometry" />
+          <mxGeometry x="160" y="1140" width="100" height="1020" as="geometry" />
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-71">
           <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
@@ -149,6 +156,9 @@
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-73" value="本地数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="1140" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-106" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-73">
+          <mxGeometry x="45" y="620" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-81" value="根据docId获取roomId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="70" y="1200" width="130" height="20" as="geometry" />
@@ -191,6 +201,41 @@
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-98" value="返回历史消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="160" y="1560" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1680" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-102" value="消费连接期间其他用户的消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="1" target="tanTmlRFgSFP3X2OnWR8-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-104" value="拉取离线消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1720" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-107" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-106" target="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-108" value="返回离线消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1810" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="25" y="1880" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-110" value="消费离线消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" parent="1" target="tanTmlRFgSFP3X2OnWR8-109">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="1850" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="1850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
