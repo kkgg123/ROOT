@@ -1,44 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T05:44:58.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="DOQ9CozXBm1VvsPVNAnX" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T05:52:41.383Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="AUCeN2o3t6WLgaY1fqEH" version="14.9.2" type="github">
   <diagram id="6OxUyXnarH1mJg6vfp_b" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-20" value="离线消息" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="180" y="680" width="140" height="320" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-32" value="协作服务器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="670" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-21" value="消息7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-20">
-          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-33" value="正常用户2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="680" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-22" value="消息8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-20">
-          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-34" value="离线用户1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="680" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-23" value="消息9&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%B6%88%E6%81%AF2%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22760%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%39&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-20">
-          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-35" value="离线消息1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-24" value="消息n&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%B6%88%E6%81%AF2%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22760%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-20">
-          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-36" value="离线消息2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="840" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-25" value="服务器消息" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="380" y="400" width="140" height="320" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-37" value="离线消息3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="860" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-26" value="消息1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-25">
-          <mxGeometry x="10" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-27" value="消息2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-25">
-          <mxGeometry x="10" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-28" value="消息3&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%B6%88%E6%81%AF2%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22760%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-25">
-          <mxGeometry x="10" y="180" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-29" value="消息n&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E6%B6%88%E6%81%AF2%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22170%22%20y%3D%22760%22%20width%3D%22120%22%20height%3D%2260%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-25">
-          <mxGeometry x="10" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-30" value="消费并发送" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="790" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="tanTmlRFgSFP3X2OnWR8-31" value="重新连接获取快照" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="500" width="130" height="90" as="geometry" />
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-38" value="离线消息4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="880" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
