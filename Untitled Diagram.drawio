@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-24T05:58:31.155Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="KlhsNaanGfTBGlIuTe7i" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-24T06:29:24.190Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="qhh_3syCDpS1WXe61bUK" version="14.9.2" type="github">
   <diagram id="6OxUyXnarH1mJg6vfp_b" name="Page-1">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,6 +102,95 @@
         </mxCell>
         <mxCell id="tanTmlRFgSFP3X2OnWR8-68" value="待消费消息4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="810" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-80" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-70" target="tanTmlRFgSFP3X2OnWR8-71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1220" />
+              <mxPoint x="150" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-70" target="tanTmlRFgSFP3X2OnWR8-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="1360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-95" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.444;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-70" target="tanTmlRFgSFP3X2OnWR8-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-70" value="客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1140" width="100" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry x="45" y="470" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-100" value="消费历史消息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" target="tanTmlRFgSFP3X2OnWR8-99" parent="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="45" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-71" value="协作服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1140" width="100" height="650" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-71">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-72" value="IM服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1140" width="100" height="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tanTmlRFgSFP3X2OnWR8-72">
+          <mxGeometry x="45" y="230" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-73" value="本地数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1140" width="100" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-81" value="根据docId获取roomId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1200" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-82" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-79" target="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-83" value="返回文档快照，包括&lt;br&gt;roomId和快照对应的seqId1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1270" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-84" value="MQ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1140" width="100" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-88" value="IM初始化、登录，根据roomId进入IM&lt;br&gt;房间，持续接收其他用户消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1335" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-93" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-90" target="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-94" value="返回当前roomId的最新seqId2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1420" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-96" value="根据seqId1和seqId2的大小比较，从IM拉取&lt;br&gt;seqId1和sqId2之间的历史消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1480" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-97" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tanTmlRFgSFP3X2OnWR8-90" target="tanTmlRFgSFP3X2OnWR8-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tanTmlRFgSFP3X2OnWR8-98" value="返回历史消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1560" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
