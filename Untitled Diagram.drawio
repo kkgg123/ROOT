@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T11:15:52.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.9.2" etag="D9lIAh8FlawVYI2pXnpM" type="github"><diagram id="apeWTvHSgEQ1iKB5PO-b">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-26T11:37:37.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="fr9dqTr18Zf4OEMZycBg" version="14.9.2" type="github">
+  <diagram id="apeWTvHSgEQ1iKB5PO-b" name="Page-1">
+    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-1" target="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="260" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-1" target="VLp3FdLcF7l_soMEvBnv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-1" target="VLp3FdLcF7l_soMEvBnv-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-1" value="MAXHUB协作前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="200" width="100" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-2" value="mindlinker服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="100" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-2">
+          <mxGeometry x="45" y="210" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-2">
+          <mxGeometry x="45" y="490" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-3" target="VLp3FdLcF7l_soMEvBnv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-3" target="VLp3FdLcF7l_soMEvBnv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-3" value="MAXHUB协作服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="100" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry x="45" y="290" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry x="45" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-21" value="同步参会人给信息块" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="VLp3FdLcF7l_soMEvBnv-20" parent="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="370" />
+              <mxPoint x="85" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry x="45" y="570" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-10" value="创建通话信息块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-12" value="落下信息块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-14" value="开始音视频会议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="390" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-4" target="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-19" value="返回参会人信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-20" target="VLp3FdLcF7l_soMEvBnv-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-24" value="通知前端修改信息块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="610" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-27" value="结束音视频会议" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="670" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="VLp3FdLcF7l_soMEvBnv-25" target="VLp3FdLcF7l_soMEvBnv-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-29" value="返回音视频会议录制文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="740" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VLp3FdLcF7l_soMEvBnv-31" value="通知前端修改信息块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="820" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
