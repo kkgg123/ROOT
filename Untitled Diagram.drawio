@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T08:20:03.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="2f9pL9EhZLz-s9qTyLEL" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T09:07:28.027Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="pa_LKjDVDoFJN-K5jHkz" version="15.5.4" type="github">
   <diagram id="oEkb4R4ePAnymps7mvUW" name="Page-1">
     <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,6 +67,39 @@
           <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="780" width="690" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-21" value="连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-22" value="功能列表(主页)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-23" value="连接记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-24" value="连接记录详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-25" value="传屏内容选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="790" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-26" value="共享文件演示选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-27" value="会议功能选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-28" value="会议进行中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-29" value="获取共享文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="840" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-30" value="页面view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="820" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
