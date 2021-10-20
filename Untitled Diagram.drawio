@@ -1,20 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T07:39:29.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="GpAuTvwbG3ua54KVvo6H" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T08:10:42.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xgE5b7wNXkC2sp1AVrRd" version="15.5.4" type="github">
   <diagram id="oEkb4R4ePAnymps7mvUW" name="Page-1">
-    <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="380" width="720" height="110" as="geometry" />
+          <mxGeometry x="-150" y="380" width="720" height="90" as="geometry" />
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-2" value="传屏SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="405" width="120" height="60" as="geometry" />
+          <mxGeometry x="-150" y="230" width="720" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-3" value="状态管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="405" width="120" height="60" as="geometry" />
+          <mxGeometry x="150" y="395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-4" value="网络管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="405" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="395" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-6" value="ipc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="490" width="720" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-7" value="服务进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="555" width="720" height="355" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-9" value="主进程日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="80" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.654;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.654;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LoI9JoAHYq4iNbfU1Quv-2" target="LoI9JoAHYq4iNbfU1Quv-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="321" y="300" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-14" value="on" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LoI9JoAHYq4iNbfU1Quv-10">
+          <mxGeometry x="-0.0223" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.138;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.139;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LoI9JoAHYq4iNbfU1Quv-1" target="LoI9JoAHYq4iNbfU1Quv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="370" as="sourcePoint" />
+            <mxPoint x="-50" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-13" value="emit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LoI9JoAHYq4iNbfU1Quv-11">
+          <mxGeometry x="-0.0925" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-15" value="SDK日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
