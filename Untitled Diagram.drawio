@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T08:10:42.312Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="xgE5b7wNXkC2sp1AVrRd" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-20T08:13:42.547Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="TMb3_nUkTc2tg0aTN4K7" version="15.5.4" type="github">
   <diagram id="oEkb4R4ePAnymps7mvUW" name="Page-1">
     <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,15 +8,15 @@
           <mxGeometry x="-150" y="380" width="720" height="90" as="geometry" />
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-2" value="传屏SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="230" width="720" height="60" as="geometry" />
+          <mxGeometry x="-150" y="270" width="720" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LoI9JoAHYq4iNbfU1Quv-3" value="状态管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-3" value="传屏状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="395" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LoI9JoAHYq4iNbfU1Quv-4" value="网络管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-4" value="网络状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="395" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LoI9JoAHYq4iNbfU1Quv-6" value="ipc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-6" value="ipc通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-150" y="490" width="720" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-7" value="服务进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -52,7 +52,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LoI9JoAHYq4iNbfU1Quv-15" value="SDK日志" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="230" width="80" height="60" as="geometry" />
+          <mxGeometry x="590" y="270" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LoI9JoAHYq4iNbfU1Quv-16" value="服务进程和SDK之间通过事件监听与回调来通信" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="340" width="280" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
